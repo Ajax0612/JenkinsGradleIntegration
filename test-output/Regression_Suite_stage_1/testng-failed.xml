@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression_Suite_stage_1]">
+  <listeners>
+    <listener class-name="com.selenium.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression_Suite_stage_1(failed)">
+    <classes>
+      <class name="com.selenium.testCases.GoogleLogin">
+        <methods>
+          <include name="googleProfile"/>
+        </methods>
+      </class> <!-- com.selenium.testCases.GoogleLogin -->
+    </classes>
+  </test> <!-- Regression_Suite_stage_1(failed) -->
+</suite> <!-- Failed suite [Regression_Suite_stage_1] -->

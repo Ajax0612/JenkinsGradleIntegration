@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Tests stage 1]">
+  <listeners>
+    <listener class-name="com.selenium.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Tests stage 1(failed)">
+    <classes>
+      <class name="com.selenium.testCases.GoogleLogin">
+        <methods>
+          <include name="getresultCount"/>
+          <include name="googleProfile"/>
+        </methods>
+      </class> <!-- com.selenium.testCases.GoogleLogin -->
+    </classes>
+  </test> <!-- Smoke Tests stage 1(failed) -->
+</suite> <!-- Failed suite [Smoke Tests stage 1] -->
