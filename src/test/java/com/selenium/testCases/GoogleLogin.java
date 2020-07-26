@@ -15,6 +15,8 @@ public class GoogleLogin {
 	public void googleLogin() {
 
 		Assert.assertTrue(true);
+		
+		System.out.println("googleLogin test case has passed");
 
 	}
 
@@ -22,12 +24,14 @@ public class GoogleLogin {
 	public void googleProfile() {
 
 		Assert.assertTrue(true);
+		System.out.println("googleProfile test case has passed");
 	}
 
 	@Test
 	public void googleAdmin() {
 
 		Assert.assertTrue(true);
+		System.out.println("googleAdmin test case has passed");
 	}
 
 }

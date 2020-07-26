@@ -9,18 +9,22 @@ public class GoogleLogout {
 	public void logoutButton() {
 
 		Assert.assertTrue(true);
+		
+		System.out.println("logoutButton test case has passed");
 	}
 
 	@Test
 	public void clicklogoutButton() {
 
 		Assert.assertTrue(true);
+		System.out.println("clicklogoutButton test case has passed");
 	}
 
 	@Test
 	public void verifylogoutButton() {
 
 		Assert.assertTrue(true);
+		System.out.println("verifylogoutButton test case has passed");
 	}
 
 }
