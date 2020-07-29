@@ -33,7 +33,7 @@ test {
 		useDefaultListeners = true
         suites 'testNg.xml'  
     }
-
+	reports.html.enabled = false
   }
 
 
