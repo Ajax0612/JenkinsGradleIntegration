@@ -30,7 +30,7 @@ compile group: 'com.slack.api', name: 'slack-api-client', version: '1.0.10'
 test {
     
     useTestNG(){
-        suites 'testng.xml'  
+        suites 'testNg.xml'  
     }
 
   }
