@@ -4,7 +4,7 @@
 <listeners>
 <listener class-name="com.selenium.listeners.TestListeners"/>
 </listeners>
-  <test name="Regression_Suite_stage_2">
+  <test name="Regression_Suite_2">
     <classes>
       <class name="com.selenium.testCases.GoogleLogout"/>
      
